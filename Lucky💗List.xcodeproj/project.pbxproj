@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F29BE4EA1AED00F2009545CA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BE4E91AED00F2009545CA /* Common.swift */; };
 		F2C304B51AEA0DCD00A8C330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C304B41AEA0DCD00A8C330 /* AppDelegate.swift */; };
 		F2C304B81AEA0DCD00A8C330 /* Lucky__List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C304B61AEA0DCD00A8C330 /* Lucky__List.xcdatamodeld */; };
 		F2C304BA1AEA0DCD00A8C330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C304B91AEA0DCD00A8C330 /* ViewController.swift */; };
@@ -14,6 +15,8 @@
 		F2C304BF1AEA0DCE00A8C330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C304BE1AEA0DCE00A8C330 /* Images.xcassets */; };
 		F2C304C21AEA0DCE00A8C330 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C304C01AEA0DCE00A8C330 /* LaunchScreen.xib */; };
 		F2C304CE1AEA0DCE00A8C330 /* Lucky__ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C304CD1AEA0DCE00A8C330 /* Lucky__ListTests.swift */; };
+		F2C304D81AEA0E4600A8C330 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C304D71AEA0E4600A8C330 /* TodoModel.swift */; };
+		F2C304DA1AEA363500A8C330 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C304D91AEA363500A8C330 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F29BE4E91AED00F2009545CA /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		F2C304AF1AEA0DCD00A8C330 /* Lucky💗List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucky💗List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C304B31AEA0DCD00A8C330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C304B41AEA0DCD00A8C330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		F2C304C71AEA0DCE00A8C330 /* Lucky💗ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucky💗ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C304CC1AEA0DCE00A8C330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C304CD1AEA0DCE00A8C330 /* Lucky__ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky__ListTests.swift; sourceTree = "<group>"; };
+		F2C304D71AEA0E4600A8C330 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		F2C304D91AEA363500A8C330 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				F2C304B41AEA0DCD00A8C330 /* AppDelegate.swift */,
 				F2C304B91AEA0DCD00A8C330 /* ViewController.swift */,
 				F2C304BB1AEA0DCE00A8C330 /* Main.storyboard */,
+				F2C304D91AEA363500A8C330 /* DetailViewController.swift */,
+				F29BE4E91AED00F2009545CA /* Common.swift */,
+				F2C304D71AEA0E4600A8C330 /* TodoModel.swift */,
 				F2C304BE1AEA0DCE00A8C330 /* Images.xcassets */,
 				F2C304C01AEA0DCE00A8C330 /* LaunchScreen.xib */,
 				F2C304B61AEA0DCD00A8C330 /* Lucky__List.xcdatamodeld */,
@@ -216,7 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C304BA1AEA0DCD00A8C330 /* ViewController.swift in Sources */,
+				F2C304D81AEA0E4600A8C330 /* TodoModel.swift in Sources */,
+				F2C304DA1AEA363500A8C330 /* DetailViewController.swift in Sources */,
 				F2C304B81AEA0DCD00A8C330 /* Lucky__List.xcdatamodeld in Sources */,
+				F29BE4EA1AED00F2009545CA /* Common.swift in Sources */,
 				F2C304B51AEA0DCD00A8C330 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				F2C304D31AEA0DCE00A8C330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2C304D41AEA0DCE00A8C330 /* Build configuration list for PBXNativeTarget "Lucky💗ListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				F2C304D61AEA0DCE00A8C330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
